@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ertiga Store</title>
+  <link rel="stylesheet" href="style_landing_page.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Ertiga Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Temukan Berbagai Produk Terbaik di Ertiga Store</h2>
+    <p>Dapatkan penawaran terbaik untuk berbagai produk favorit Anda!</p>
+ 
+    <h1>Produk Terbaru</h1>
+  </div>
+</section>
+
+<section class="featured-products">
+  <div class="container">
+    <div class="product">
+      <img src="img/nike1.jpg" alt="Product 1">
+      <h3>Produk 1</h3>
+      <p>Rp 100.000</p>
+      
+      <button class="buy-btn" id="buy-btn-1">Beli Produk</button>
+
+    </div>
+    <div class="product">
+      <img src="img/nike2.jpg" alt="Product 2">
+      <h3>Produk 2</h3>
+      <p>Rp 150.000</p>
+      
+      <button class="buy-btn" id="buy-btn-2">Beli Produk</button>
+
+    </div>
+    <div class="product">
+      <img src="img/nike3.jpg" alt="Product 3">
+      <h3>Produk 3</h3>
+      <p>Rp 200.000</p>
+    
+      <button class="buy-btn" id="buy-btn-3">Beli Produk</button>
+
+    </div>
+    
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Ertiga Store. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+// script js untuk mengarahkan ke form pembelian
+
+  // Ambil elemen tombol beli produk
+  var buyBtn1 = document.getElementById('buy-btn-1');
+  var buyBtn2 = document.getElementById('buy-btn-2');
+  var buyBtn3 = document.getElementById('buy-btn-3');
+
+  // Tambahkan event listener untuk setiap tombol
+  buyBtn1.addEventListener('click', function() {
+    window.location.href = 'form_pembelian.html';
+  });
+
+  buyBtn2.addEventListener('click', function() {
+    window.location.href = 'form_pembelian.html';
+  });
+
+  buyBtn3.addEventListener('click', function() {
+    window.location.href = 'form_pembelian.html';
+  });
+</script>
+
+
+</body>
+</html>
